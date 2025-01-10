@@ -5,7 +5,7 @@ const inicio = () => {
           return pantalla.value = '0'
      }
 }
-inicio()
+validarInicio()
 
 pantalla.addEventListener('keydown', (e) => {
      const allowedKeys = ['Enter', 'Backspace', 'Delete', 'ArrowLeft', 'ArrowRight', '.', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
@@ -17,5 +17,4 @@ pantalla.addEventListener('keydown', (e) => {
      } else {
           e.preventDefault()
      }
-
 })
